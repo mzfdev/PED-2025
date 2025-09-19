@@ -4,8 +4,8 @@
 1. Crea un programa que:
     - Genere un arreglo de 20 números aleatorios entre 1 y 100.
     - Implemente funciones para:
-        - Contar cuántos son pares e impares.
-        - Encontrar el segundo mayor y el segundo menor.
+            - Contar cuántos son pares e impares.
+            - Encontrar el segundo mayor y el segundo menor.
         - Invertir el arreglo (sin usar otro arreglo auxiliar).
 
 2. Suma de vectores

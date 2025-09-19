@@ -1,0 +1,16 @@
+{
+    "nombre": "UCA",
+    "direccion": "Calle Falsa 123",
+    "facultades": [
+        {
+            "numero_facultad": 1,
+            "carrera_principal": "Ingeniería",
+            "numero_estudiantes": 1000
+        },
+        {
+            "numero_facultad": 2,
+            "carrera_principal": "Medicina",
+            "numero_estudiantes": 500
+        }
+    ]
+}
