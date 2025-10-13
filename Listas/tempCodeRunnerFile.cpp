@@ -1,1 +1,1 @@
-lista1
+current = current->next;
