@@ -1,0 +1,36 @@
+1. map – Contar frecuencia de palabras (ordenadas alfabéticamente)
+Dado un texto, imprime cuántas veces aparece cada palabra, ordenadas alfabéticamente.
+
+2. set – Eliminar duplicados y ordenar números
+Dada una lista de enteros, eliminar duplicados y mostrarlos ordenados.
+
+3. unordered_set – Encontrar el primer número duplicado
+Dado un arreglo, encuentra el primer número que se repite.
+
+4. unordered_map – Sumar precios (clave: producto)
+Dado un carrito de compras, sumar los precios de cada producto.
+
+5. Caso practico
+Sistema de biblioteca: libros, autores y géneros
+    Enunciado
+
+    Crea un programa que:
+
+    Defina un struct Libro con:
+        string titulo
+        string autor
+        int anio
+
+    Use un map<int, Libro> para almacenar la información completa de cada libro.
+
+    clave = ID del libro
+    valor = información del libro
+
+    Use un map<string, set<int>> para agrupar libros por género.
+    clave = nombre del género → "Ficción", "Historia", "Ciencia"
+    valor = conjunto de IDs de libros
+
+    Debe permitir:
+    Mostrar todos los géneros y los IDs de sus libros.
+    Mostrar información completa de todos los libros en un género.
+    Evitar duplicados usando set.
